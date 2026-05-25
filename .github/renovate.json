@@ -3,5 +3,12 @@
   "extends": [
     "github>jenkinsci/renovate-config"
   ],
-  "maxMajorIncrement": 0
+  "packageRules": [
+    {
+      "matchPackageNames": [
+        "org.json:json"
+      ],
+      "maxMajorIncrement": 0
+    }
+  ]
 }
